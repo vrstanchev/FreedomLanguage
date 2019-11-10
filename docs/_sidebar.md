@@ -2,6 +2,7 @@
 * [](README.md "Home Page")
 * [](About.md "About Project")
 * [](Overview.md "Freedom Overview")
+* [](math.md "Mathematical Basis")
 * [](IDE.md "IDE Features")
 * [](Contact.md "Contact")
 * [](Privacy.md "Privacy")
