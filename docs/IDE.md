@@ -29,48 +29,49 @@ bellow:
 # Keywords Statements
 
 When you want to print something
-on the screen use : [cl.show(  )](#)
+on the screen use : [cl.show(  )](#)<br/>
 When you want to read input value  
-from the keyboard, use : [cl.wr(  )](#)
+from the keyboard, use : [cl.wr(  )](#)<br/>
 
 # Variable names
 For identificator you can use letters a-z,A-Z
 
 # Variable types
 When you want to use integer type,
-use: [int ](#)
+use: [int ](#)<br/>
 When you want to use double type,
-use: [double ](#)
+use: [double ](#)<br/>
 When you want to use boolean type,
-use: [bool ](#)
+use: [bool ](#)<br/>
 When you want to use char type,
-use: [char ](#)
+use: [char ](#)<br/>
 
 # Control Statements
  When you want to check for any statement it is true or not,
- use : [if(  ){  }](#)
+ use : [if(  ){  }](#)<br/>
  If the statement is not true,
- use: [else{  }](#)
+ use: [else{  }](#)<br/>
 
 # Loops
 When you want to  execute piece of code while statement
-is true, use: [while( ){    }](#)
+is true, use: [while( ){    }](#)<br/>
  When you want to  execute piece of code while statement
-is true, use: [ do {  }](#)
+is true, use: [ do {  }](#)<br/>
 When you want to mix do loop and
-while loop use: [do {  } while(  );](#)
+while loop use: [do {  } while(  );](#)<br/>
 When you want to repeat a piece of code
-n-times use: [for(int i=0;i<=10;i++)](#)
+n-times use: [for(int i=0;i<=10;i++)](#)<br/>
 # Arrays
 When you want to store many one type vabiables,
 you will use array (for example: integer array) [int arr1[5]=[1,2,3,4,5]](#) 
+<br/>
 # Functions
 When you want to use a piece of code
-n-times use: [func indent(){ }](#)
-[Freedom Main File Directory](http://gnulinux.000webhostapp.com/free/)
-[Open IDE from here:](http://gnulinux.000webhostapp.com/free/FreeIDE.html)
+n-times use: [func indent(){ }](#)<br/>
+[Freedom Main File Directory](http://gnulinux.000webhostapp.com/free/)<br/>
+[Open IDE from here:](http://gnulinux.000webhostapp.com/free/FreeIDE.html)<br/>
 The compiler is not ready yet, but
  [You can findout The Lexer 
-here:](http://gnulinux.000webhostapp.com/free/Compiler/lexer.l)
+here:](http://gnulinux.000webhostapp.com/free/Compiler/lexer.l)<br/>
  
 Go back to [Home page](README.md) 
