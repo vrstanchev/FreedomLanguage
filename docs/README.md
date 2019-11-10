@@ -13,7 +13,7 @@ If you want to findout more information about this language, go to
 [Overview](Overview.md)
 ## Mathematical Basis of Freedom Language
 If you want to learn more about Mathematical Basis of the language,
-go to[Mathematical Basis](math.md)
+go to [Mathematical Basis](math.md)
 ## Web IDE
 If you want to learn more about the Web Development environment and how to use 
 it, go to [Web IDE](IDE.md)
