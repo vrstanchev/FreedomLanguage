@@ -1,0 +1,11 @@
+int a;
+int b;
+int c;
+cl.show("Vuvedete a");
+cl.wr(a);
+cl.show(""Vuvedete b");
+cl.wr(b);
+if (a>0 and b>0) c=a+b; cl.show(c);
+else cl.show("Error");
+
+

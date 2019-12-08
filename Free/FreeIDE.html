@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>FreeIDE</title>
+    </head>
+    <body id="bd">
+        <h1> Среда за разработка на езика Free</h1>
+        <img src="http://icons.iconarchive.com/icons/custom-icon-design/mono-general-2/128/cut-icon.png" id="cut" onclick="Cut()">
+        <img src="https://d1nhio0ox7pgb.cloudfront.net/_img/o_collection_png/green_dark_grey/128x128/plain/copy.png" onclick="Copy()">
+        <img src="http://icons.iconarchive.com/icons/visualpharm/must-have/128/Paste-icon.png" id="paste" onclick="Paste()">
+      <img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fs1.iconbird.com%2Fico%2F2013%2F10%2F464%2Fw128h1281380984637delete13.png&f=1" id="del"></br>
+<table id="tab1">
+<tr><td>
+<form method="POST" action="data.php">
+  <input type="text" id="fname" name="fn"></br>
+        <textarea id="txtar" name="txt"></textarea></br>
+        <input type="button" id="rcode" value="Прочети кода"></br>
+        <input type="submit" value="Запази в .free файл"></form></td>
+      <td>  <form method="post" action="op.php">
+          <input type="text" id="fopen" name="fop"></br>
+          <input type="submit" id="fo" value="Отвори .free файл"></form>
+        <form method="post" action="list.php">
+        <input type="submit" id="list1" value="Покажи файловете"></form></br></td>
+        <td><input type="button" value="Запази в .cpp файл" id="btn2"></td> </tr> </table>
+        <textarea id="trans" name="tr"></textarea>
+        <ul id="menu1">
+    <li id="bool"><a href="#">bool</a></li>
+    </ul>
+    <ul id="menu2">
+<li id="double"><a href="#">double</a></li>
+<li id="do1"><a href="#">do</a></li>
+<li id="dow"><a href="#">do-while</a></li>
+</ul>
+<ul id="menu3">
+<li id="for1"><a href="#">for</a></li>
+<li id="false1"><a href="#">false</a></li>
+</ul>
+<ul id="menu4">
+<li id="int1"><a href="#">int</a></li>
+<li id="if1"><a href="#">if</a></li>
+</ul>
+<ul id="menu5">
+<li id="true1"><a href="#">true</a></li>
+</ul>
+<ul id="menu6">
+<li id="while1"><a href="#">while</a></li>
+</ul>
+<ul id="menu7">
+<li id="show1"><a href="#">cl.show</a></li>
+<li id="wr1"><a href="#">cl.wr</a></li>
+</ul>
+<ul id="menu8">
+<li id="else1"><a href="#">else</a></li>
+</ul>
+    <table>
+        <tr>
+            <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Braille_A1.svg/100px-Braille_A1.svg.png" id="a">
+            </td>
+            <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Braille_B2.svg/100px-Braille_B2.svg.png" id="b">
+            </td>
+            <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Braille_C3.svg/100px-Braille_C3.svg.png" id="c">
+            </td>
+            <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Braille_D4.svg/100px-Braille_D4.svg.png" id="d">
+            </td>
+            <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Braille_E5.svg/100px-Braille_E5.svg.png" id="e">
+            </td>
+            <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Braille_F6.svg/100px-Braille_F6.svg.png" id="f">
+            </td>
+             <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Braille_G7.svg/100px-Braille_G7.svg.png" id="g">
+            </td>
+        <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Braille_H8.svg/100px-Braille_H8.svg.png" id="h">
+            </td>
+        <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Braille_I9.svg/100px-Braille_I9.svg.png" id="i">
+            </td>
+        <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Braille_J0.svg/100px-Braille_J0.svg.png" id="j">
+            </td>
+        <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Braille_K_colored.svg/100px-Braille_K_colored.svg.png" id="k">
+            </td>
+        <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Braille_L_colored.svg/100px-Braille_L_colored.svg.png" id="l">
+            </td>
+        <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Braille_M_colored.svg/100px-Braille_M_colored.svg.png" id="m">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Braille_N_colored.svg/100px-Braille_N_colored.svg.png" id="n">
+            </td>
+            <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Braille_O_colored.svg/100px-Braille_O_colored.svg.png" id="o">
+            </td>
+            <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Braille_P_colored.svg/100px-Braille_P_colored.svg.png" id="p">
+            </td>
+            <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Braille_Q_colored.svg/100px-Braille_Q_colored.svg.png" id="q">
+            </td>
+            <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Braille_R_colored.svg/100px-Braille_R_colored.svg.png" id="r">
+            </td>
+            <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Braille_S_colored.svg/100px-Braille_S_colored.svg.png" id="s">
+            </td>
+            <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Braille_T_colored.svg/100px-Braille_T_colored.svg.png" id="t">
+            </td>
+            <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Braille_U_colored.svg/100px-Braille_U_colored.svg.png" id="u">
+            </td>
+            <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Braille_V_colored.svg/100px-Braille_V_colored.svg.png" id="v">
+            </td>
+            <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Braille_W_colored.svg/100px-Braille_W_colored.svg.png" id="w">
+            </td>
+            <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Braille_X_colored.svg/100px-Braille_X_colored.svg.png" id="x">
+            </td>
+            <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Braille_Y_colored.svg/100px-Braille_Y_colored.svg.png" id="y">
+            </td>
+            <td>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Braille_Z_colored.svg/100px-Braille_Z_colored.svg.png" id="z">
+            </td>
+        </tr>
+    </table>
+    <audio src="sounds/a.mp3" id="a-mp3">
+    <audio src="sounds/b.mp3" id="b-mp3">
+    <audio src="sounds/c.mp3" id="c-mp3">
+    <audio src="sounds/d.mp3" id="d-mp3">
+    <audio src="sounds/e.mp3" id="e-mp3">
+    <audio src="sounds/f.mp3" id="f-mp3">
+    <audio src="sounds/g.mp3" id="g-mp3">
+    <audio src="sounds/h.mp3" id="h-mp3">
+    <audio src="sounds/i.mp3" id="i-mp3">
+    <audio src="sounds/j.mp3" id="j-mp3">
+    <audio src="sounds/k.mp3" id="k-mp3">
+    <audio src="sounds/l.mp3" id="l-mp3">
+    <audio src="sounds/m.mp3" id="m-mp3">
+    <audio src="sounds/n.mp3" id="n-mp3">
+    <audio src="sounds/o.mp3" id="o-mp3">
+    <audio src="sounds/p.mp3" id="p-mp3">
+    <audio src="sounds/q.mp3" id="q-mp3">
+    <audio src="sounds/r.mp3" id="r-mp3">
+    <audio src="sounds/s.mp3" id="s-mp3">
+    <audio src="sounds/t.mp3" id="t-mp3">
+    <audio src="sounds/u.mp3" id="u-mp3">
+    <audio src="sounds/v.mp3" id="v-mp3">
+    <audio src="sounds/w.mp3" id="w-mp3">
+    <audio src="sounds/x.mp3" id="x-mp3">
+    <audio src="sounds/y.mp3" id="y-mp3">
+    <audio src="sounds/z.mp3" id="z-mp3">
+      <audio src="sounds/for.mp3" id="for-mp3">
+      <audio src="sounds/while.mp3" id="while-mp3">
+      <audio src="sounds/int.mp3" id="int-mp3">
+      <audio src="sounds/copy.mp3" id="copy-mp3">
+      <audio src="sounds/fname.mp3" id="fname-mp3">
+    <style>
+        #trans{
+            float: right;
+        }
+        #bd{
+            width: 100%;
+            height: 100%;
+        }
+        li{
+          list-style-type: none;
+        }
+    </style>
+
+    <script type="text/javascript">
+    var del=document.getElementById("del");
+        var trans=document.getElementById("trans");
+        var cut1=document.getElementById("cut");
+        var paste1=document.getElementById("paste");
+        var select1=document.getElementById("select");
+          var txtar=document.getElementById("txtar");
+        var a=document.getElementById("a");
+         var b=document.getElementById("b");
+          var c=document.getElementById("c");
+           var d=document.getElementById("d");
+            var e=document.getElementById("e");
+             var f=document.getElementById("f");
+              var g=document.getElementById("g");
+               var h=document.getElementById("h");
+                var i=document.getElementById("i");
+                 var j=document.getElementById("j");
+                  var k=document.getElementById("k");
+                   var l=document.getElementById("l");
+                    var m=document.getElementById("m");
+          var n=document.getElementById("n");
+            var o=document.getElementById("o");
+              var p=document.getElementById("p");
+                var q=document.getElementById("q");
+                  var r=document.getElementById("r");
+                    var s=document.getElementById("s");
+                      var t=document.getElementById("t");
+                      var u=document.getElementById("u");
+                        var v=document.getElementById("v");
+                          var w=document.getElementById("w");
+                            var x=document.getElementById("x");
+                              var y=document.getElementById("y");
+                                var z=document.getElementById("z");
+                                var forop=document.getElementById("for-mp3");
+                                var whileop=document.getElementById("while-mp3");
+                                var intop=document.getElementById("int-mp3");
+                                var copyop=document.getElementById("copy-mp3");
+                                var cutop=document.getElementById("cut-mp3");
+                                var pasteop=document.getElementById("paste-mp3");
+                                var delop=document.getElementById("delete-mp3");
+                                var fnameop=document.getElementById("fname-mp3");
+                                var fname=document.getElementById("fname");
+                                var amp3=document.getElementById("a-mp3");
+                                var bmp3=document.getElementById("b-mp3");
+                                var cmp3=document.getElementById("c-mp3");
+                                var dmp3=document.getElementById("d-mp3");
+                                var emp3=document.getElementById("e-mp3");
+                                var fmp3=document.getElementById("f-mp3");
+                                var gmp3=document.getElementById("g-mp3");
+                                var hmp3=document.getElementById("h-mp3");
+                                var imp3=document.getElementById("i-mp3");
+                                var jmp3=document.getElementById("j-mp3");
+                                var kmp3=document.getElementById("k-mp3");
+                                var lmp3=document.getElementById("l-mp3");
+                                var mmp3=document.getElementById("m-mp3");
+                                var nmp3=document.getElementById("n-mp3");
+                                var omp3=document.getElementById("o-mp3");
+                                var pmp3=document.getElementById("p-mp3");
+                                var qmp3=document.getElementById("q-mp3");
+                                var rmp3=document.getElementById("r-mp3");
+                                var smp3=document.getElementById("s-mp3");
+                                var tmp3=document.getElementById("t-mp3");
+                                var ump3=document.getElementById("u-mp3");
+                                var vmp3=document.getElementById("v-mp3");
+                                var wmp3=document.getElementById("w-mp3");
+                                var xmp3=document.getElementById("x-mp3");
+                                var ymp3=document.getElementById("y-mp3");
+                                var zmp3=document.getElementById("z-mp3");
+                                var menu1=document.getElementById("menu1");
+                                var menu2=document.getElementById("menu2");
+                                var menu3=document.getElementById("menu3");
+                                var menu4=document.getElementById("menu4");
+                                var menu5=document.getElementById("menu5");
+                                var menu7=document.getElementById("menu7");
+                                var menu8=document.getElementById("menu8");
+                                var bool=document.getElementById("bool");
+                                var show1=document.getElementById("show1");
+                                var wr1=document.getElementById("wr1");
+                                show1.addEventListener("click",function () {
+                                  txtar.value=txtar.value+" "+"cl.show(  );";
+                                  menu7.style.display="none";
+                                });
+                                wr1.addEventListener("click",function () {
+                                  txtar.value=txtar.value+" "+"cl.wr(  );";
+                                  menu7.style.display="none";
+                                });
+                                bool.addEventListener("click",function () {
+                                  txtar.value=txtar.value+" "+"bool";
+                                  menu1.style.display="none";
+                                });
+                                var double=document.getElementById("double");
+                                double.addEventListener("click",function () {
+                                  txtar.value=txtar.value+" "+"double";
+                                  menu2.style.display="none";
+                                });
+                                var do1=document.getElementById("do1");
+                                do1.addEventListener("click",function () {
+                                  txtar.value=txtar.value+" "+"do {  }";
+                                  menu2.style.display="none";
+                                });
+                                var dow=document.getElementById("dow");
+                                dow.addEventListener("click",function () {
+                                  txtar.value=txtar.value+" "+"do {  } while(  );";
+                                  menu2.style.display="none";
+                                });
+                                var for1=document.getElementById("for1");
+                                for1.addEventListener("click",function () {
+                                  txtar.value=txtar.value+" "+"for(int i=0;i<=10;i++)";
+                                  menu3.style.display="none";
+                                });
+                                var false1=document.getElementById("false1");
+                                false1.addEventListener("click",function () {
+                                  txtar.value=txtar.value+" "+"false";
+                                  menu3.style.display="none";
+                                });
+                                var true1=document.getElementById("true1");
+                                true1.addEventListener("click",function () {
+                                  txtar.value=txtar.value+" "+"true";
+                                  menu5.style.display="none";
+                                });
+                                var while1=document.getElementById("while1");
+                                while1.addEventListener("click",function () {
+                                  txtar.value=txtar.value+" "+"while( ){    }";
+                                  menu6.style.display="none";
+                                });
+                                var int1=document.getElementById("int1");
+                                int1.addEventListener("click",function () {
+                                  txtar.value=txtar.value+" "+"int";
+                                  menu4.style.display="none";
+                                });
+                                var if1=document.getElementById("if1");
+                                if1.addEventListener("click",function () {
+                                  txtar.value=txtar.value+" "+"if(  ){  }";
+                                  menu4.style.display="none";
+                                });
+                                var else1=document.getElementById("else1");
+                                else1.addEventListener("click",function () {
+                                  txtar.value=txtar.value+" "+"else{  }";
+                                  menu8.style.display="none";
+                                });
+                                menu1.style.display="none";
+                                menu2.style.display="none";
+                                menu3.style.display="none";
+                                menu4.style.display="none";
+                                menu5.style.display="none";
+                                menu6.style.display="none";
+                                menu7.style.display="none";
+                                menu8.style.display="none";
+                                a.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"a";
+                                        });
+                                     b.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"b";
+                                    menu1.style.display="block";
+                                    });
+                                   c.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"c";
+                                    menu7.style.display="block";});
+                                    d.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"d";
+                                  menu2.style.display="block";});
+                                     e.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"e";
+                                    menu8.style.display="block";});
+                                      f.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"f";
+                                    menu3.style.display="block";
+                                  });
+                                       g.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"g";});
+                                        h.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"h";});
+                                         i.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"i";
+                                  menu4.style.display="block";});
+                                          j.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"j";});
+                                           k.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"k";});
+                                            l.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"l";});
+                                             m.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"m";});
+                                              n.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"n";});
+                                               o.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"o";});
+                                                p.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"p";});
+                                                 q.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"q";});
+                                                  r.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"r";});
+                                                   s.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"s";});
+                                                    t.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"t";
+                                  menu5.style.display="block"; });
+                                                     u.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"u";});
+                                                      v.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"v";});
+                                                       w.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"w";
+                                  menu6.style.display="block";});
+                                                        x.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"x";});
+                                                         y.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"y";});
+                                                          z.addEventListener("click",function(){
+                                    txtar.value=txtar.value+"z";});
+                                    del.addEventListener("click",function () {
+                                      txtar.value=" ";
+                                    });
+                                    fname.addEventListener("mouseover",function(){
+                                        fnameop.play();
+                                            });
+                                    fname.addEventListener("mouseout",function(){
+                                                fnameop.pause();});
+
+                                    function Cut() {
+                                      txtar.select();
+                                      document.execCommand("cut");
+                                    }
+                                    function Paste(txtar) {
+
+                                      document.execCommand('Paste');
+                                    }
+                                    function Copy() {
+                                      txtar.select();
+                                      document.execCommand("copy");
+                                    }
+                                    a.addEventListener("mouseover",function(){
+                                        amp3.play();
+                                            });
+                                    a.addEventListener("mouseout",function(){
+                                                amp3.pause();
+                                                    });
+                                                    b.addEventListener("mouseover",function(){
+                                                        bmp3.play();
+                                                            });
+                                                    b.addEventListener("mouseout",function(){
+                                                                bmp3.pause();
+                                                                    });
+                                                                    c.addEventListener("mouseover",function(){
+                                                                        cmp3.play();
+                                                                            });
+                                                                    c.addEventListener("mouseout",function(){
+                                                                                cmp3.pause();
+                                                                                    });
+                                                                                    d.addEventListener("mouseover",function(){
+                                                                                        dmp3.play();
+                                                                                            });
+                                                                                    d.addEventListener("mouseout",function(){
+                                                                                                dmp3.pause();
+                                                                                                    });
+                                                                                                    e.addEventListener("mouseover",function(){
+                                                                                                        emp3.play();
+                                                                                                            });
+                                                                                                    e.addEventListener("mouseout",function(){
+                                                                                                                emp3.pause();
+                                                                                                                    });
+                                                                                                                    f.addEventListener("mouseover",function(){
+                                                                                                                        fmp3.play();
+                                                                                                                            });
+                                                                                                                    f.addEventListener("mouseout",function(){
+                                                                                                                                fmp3.pause();
+                                                                                                                                    });
+                                                                                                                                    g.addEventListener("mouseover",function(){
+                                                                                                                                        gmp3.play();
+                                                                                                                                            });
+                                                                                                                                    g.addEventListener("mouseout",function(){
+                                                                                                                                                gmp3.pause();
+                                                                                                                                                    });
+                                                                                                                                                    h.addEventListener("mouseover",function(){
+                                                                                                                                                        hmp3.play();
+                                                                                                                                                            });
+                                                                                                                                                    h.addEventListener("mouseout",function(){
+                                                                                                                                                                hmp3.pause();
+                                                                                                                                                                    });
+                                                                                                                                                                    i.addEventListener("mouseover",function(){
+                                                                                                                                                                        imp3.play();
+                                                                                                                                                                            });
+                                                                                                                                                                    i.addEventListener("mouseout",function(){
+                                                                                                                                                                                imp3.pause();
+                                                                                                                                                                                    });
+                                                                                                                                                                                    j.addEventListener("mouseover",function(){
+                                                                                                                                                                                        jmp3.play();
+                                                                                                                                                                                            });
+                                                                                                                                                                                    j.addEventListener("mouseout",function(){
+                                                                                                                                                                                                jmp3.pause();
+                                                                                                                                                                                                    });
+                                                                                                                                                                                                    k.addEventListener("mouseover",function(){
+                                                                                                                                                                                                        kmp3.play();
+                                                                                                                                                                                                            });
+                                                                                                                                                                                                    k.addEventListener("mouseout",function(){
+                                                                                                                                                                                                                kmp3.pause();
+                                                                                                                                                                                                                    });
+                                                                                                                                                                                                                    l.addEventListener("mouseover",function(){
+                                                                                                                                                                                                                        lmp3.play();
+                                                                                                                                                                                                                            });
+                                                                                                                                                                                                                    l.addEventListener("mouseout",function(){
+                                                                                                                                                                                                                                lmp3.pause();
+                                                                                                                                                                                                                                    });
+                                                                                                                                                                                                                                    m.addEventListener("mouseover",function(){
+                                                                                                                                                                                                                                        mmp3.play();
+                                                                                                                                                                                                                                            });
+                                                                                                                                                                                                                                    m.addEventListener("mouseout",function(){
+                                                                                                                                                                                                                                                mmp3.pause();
+                                                                                                                                                                                                                                                    });
+                                                                                                                                                                                                                                                    n.addEventListener("mouseover",function(){
+                                                                                                                                                                                                                                                        nmp3.play();
+                                                                                                                                                                                                                                                            });
+                                                                                                                                                                                                                                                    n.addEventListener("mouseout",function(){
+                                                                                                                                                                                                                                                                nmp3.pause();
+                                                                                                                                                                                                                                                                    });
+                                                                                                                                                                                                                                                                    o.addEventListener("mouseover",function(){
+                                                                                                                                                                                                                                                                        omp3.play();
+                                                                                                                                                                                                                                                                            });
+                                                                                                                                                                                                                                                                    o.addEventListener("mouseout",function(){
+                                                                                                                                                                                                                                                                                omp3.pause();
+                                                                                                                                                                                                                                                                                    });
+                                                                                                                                                                                                                                                                                    p.addEventListener("mouseover",function(){
+                                                                                                                                                                                                                                                                                        pmp3.play();
+                                                                                                                                                                                                                                                                                            });
+                                                                                                                                                                                                                                                                                    p.addEventListener("mouseout",function(){
+                                                                                                                                                                                                                                                                                                pmp3.pause();
+                                                                                                                                                                                                                                                                                                    });
+                                                                                                                                                                                                                                                                                                    q.addEventListener("mouseover",function(){
+                                                                                                                                                                                                                                                                                                        qmp3.play();
+                                                                                                                                                                                                                                                                                                            });
+                                                                                                                                                                                                                                                                                                    q.addEventListener("mouseout",function(){
+                                                                                                                                                                                                                                                                                                                qmp3.pause();
+                                                                                                                                                                                                                                                                                                                    });
+                                                                                                                                                                                                                                                                                                                    r.addEventListener("mouseover",function(){
+                                                                                                                                                                                                                                                                                                                        rmp3.play();
+                                                                                                                                                                                                                                                                                                                            });
+                                                                                                                                                                                                                                                                                                                    r.addEventListener("mouseout",function(){
+                                                                                                                                                                                                                                                                                                                                rmp3.pause();
+                                                                                                                                                                                                                                                                                                                                    });
+                                                                                                                                                                                                                                                                                                                                    s.addEventListener("mouseover",function(){
+                                                                                                                                                                                                                                                                                                                                        smp3.play();
+                                                                                                                                                                                                                                                                                                                                            });
+                                                                                                                                                                                                                                                                                                                                    s.addEventListener("mouseout",function(){
+                                                                                                                                                                                                                                                                                                                                                smp3.pause();
+                                                                                                                                                                                                                                                                                                                                                    });
+                                                                                                                                                                                                                                                                                                                                                    t.addEventListener("mouseover",function(){
+                                                                                                                                                                                                                                                                                                                                                        tmp3.play();
+                                                                                                                                                                                                                                                                                                                                                            });
+                                                                                                                                                                                                                                                                                                                                                    t.addEventListener("mouseout",function(){
+                                                                                                                                                                                                                                                                                                                                                                tmp3.pause();
+                                                                                                                                                                                                                                                                                                                                                                    });
+                                                                                                                                                                                                                                                                                                                                                                    u.addEventListener("mouseover",function(){
+                                                                                                                                                                                                                                                                                                                                                                        ump3.play();
+                                                                                                                                                                                                                                                                                                                                                                            });
+                                                                                                                                                                                                                                                                                                                                                                    u.addEventListener("mouseout",function(){
+                                                                                                                                                                                                                                                                                                                                                                                ump3.pause();
+                                                                                                                                                                                                                                                                                                                                                                                    });
+                                                                                                                                                                                                                                                                                                                                                                                    v.addEventListener("mouseover",function(){
+                                                                                                                                                                                                                                                                                                                                                                                        vmp3.play();
+                                                                                                                                                                                                                                                                                                                                                                                            });
+                                                                                                                                                                                                                                                                                                                                                                                    v.addEventListener("mouseout",function(){
+                                                                                                                                                                                                                                                                                                                                                                                                vmp3.pause();
+                                                                                                                                                                                                                                                                                                                                                                                                    });
+                                                                                                                                                                                                                                                                                                                                                                                                    w.addEventListener("mouseover",function(){
+                                                                                                                                                                                                                                                                                                                                                                                                        wmp3.play();
+                                                                                                                                                                                                                                                                                                                                                                                                            });
+                                                                                                                                                                                                                                                                                                                                                                                                    w.addEventListener("mouseout",function(){
+                                                                                                                                                                                                                                                                                                                                                                                                                wmp3.pause();
+                                                                                                                                                                                                                                                                                                                                                                                                                    });
+                                                                                                                                                                                                                                                                                                                                                                                                                    x.addEventListener("mouseover",function(){
+                                                                                                                                                                                                                                                                                                                                                                                                                        xmp3.play();
+                                                                                                                                                                                                                                                                                                                                                                                                                            });
+                                                                                                                                                                                                                                                                                                                                                                                                                    x.addEventListener("mouseout",function(){
+                                                                                                                                                                                                                                                                                                                                                                                                                                xmp3.pause();
+                                                                                                                                                                                                                                                                                                                                                                                                                                    });
+                                                                                                                                                                                                                                                                                                                                                                                                                                    y.addEventListener("mouseover",function(){
+                                                                                                                                                                                                                                                                                                                                                                                                                                        ymp3.play();
+                                                                                                                                                                                                                                                                                                                                                                                                                                            });
+                                                                                                                                                                                                                                                                                                                                                                                                                                    y.addEventListener("mouseout",function(){
+                                                                                                                                                                                                                                                                                                                                                                                                                                                ymp3.pause();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    });
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    z.addEventListener("mouseover",function(){
+                                                                                                                                                                                                                                                                                                                                                                                                                                                        zmp3.play();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                            });
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    z.addEventListener("mouseout",function(){
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                zmp3.pause();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                    });
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                    for1.addEventListener("mouseover",function(){
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                        forop.play();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                            });
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                    for1.addEventListener("mouseout",function(){
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                forop.pause();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    });
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    int1.addEventListener("mouseover",function(){
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        intop.play();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            });
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    int1.addEventListener("mouseout",function(){
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                intop.pause();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    });
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    copy.addEventListener("mouseover",function(){
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        copyop.play();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            });
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    copy.addEventListener("mouseout",function(){
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                copyop.pause();});
+
+
+
+                                                          var val=txtar.value; var cpp=trans.value;
+if(val=="program"){
+    cpp="#include<iostream> using namespace std; int main(){     }";
+}
+
+    </script>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+#define cl.wr 
+#define cl.show 
+#define IDENTIFIER
+#define bool
+#define do
+#define if
+#define else
+#define int
+#define while
+#define for
+#define do-while
+#define true
+#define false
