@@ -68,10 +68,10 @@ you will use array (for example: integer array) [int arr1[5]=[1,2,3,4,5]](#)
 # Functions
 When you want to use a piece of code
 n-times use: [func indent(){ }](#)<br/>
-[Freedom Main File Directory](http://gnulinux.000webhostapp.com/free/)<br/>
-[Open IDE from here:](http://gnulinux.000webhostapp.com/free/FreeIDE.html)<br/>
+[Freedom Main File Directory](![](Free/))<br/>
+[Open IDE from here:](![](Free/FreeIDE.html))<br/>
 The compiler is not ready yet, but
  [You can findout The Lexer 
-here:](http://gnulinux.000webhostapp.com/free/Compiler/lexer.l)<br/>
+here:](![](Free/Compiler/lexer.l))<br/>
  
 Go back to [Home page](README.md) 
