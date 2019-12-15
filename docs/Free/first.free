@@ -1,9 +1,0 @@
-int a;
-int b;
-int c;
-cl.show("Vuvedete a");
-cl.wr(a);
-cl.show(""Vuvedete b");
-cl.wr(b);
-c=a+b;
-cl.show(c);
