@@ -3,8 +3,8 @@
 FreedomLang={cl.wr, cl.show,int, double, 
 do,while,bool,char,if,else,for,func, a-zA-Z}
 
-[S -> cl.wr A](#)<br/>
-[A -> cl.show B](#)<br/>
+[S -> wr A](#)<br/>
+[A -> show B](#)<br/>
 [B -> int C](#)<br/>
 [C -> double D](#)<br/>
 [D -> do E](#)<br/>
@@ -19,9 +19,9 @@ do,while,bool,char,if,else,for,func, a-zA-Z}
 ## Determined finite state machine
 ![](_media/automata.png)<br/>
 ## Context Free Grammar
-<indentificator>::=<'a'...'z'|'A'...'Z'><br/>
-<type>::=< int|bool|char|double|func ><br/>
-<variable>::=<type|identificator ><br/>
-<keywords>::=<cl.show|cl.wr|if|else|do|while><br/>
-<statement>::=<keywords|()><br/>
+[<indentificator>::=<'a'...'z'|'A'...'Z'>](#)<br/>
+[<type>::=< int|bool|char|double|func >](#)<br/>
+[<variable>::=<type|identificator >](#)<br/>
+[<keywords>::=<show|wr|if|else|do|while>](#)<br/>
+[<statement>::=<keywords|()>](#)<br/>
 Go back to [Home page](README.md) 

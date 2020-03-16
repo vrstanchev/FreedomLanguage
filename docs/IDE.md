@@ -29,9 +29,9 @@ bellow:
 # Keywords Statements
 
 When you want to print something
-on the screen use : [cl.show(  )](#)<br/>
+on the screen use : [show(  )](#)<br/>
 When you want to read input value  
-from the keyboard, use : [cl.wr(  )](#)<br/>
+from the keyboard, use : [wr(  )](#)<br/>
 
 # Variable names
 For identificator you can use letters a-z,A-Z
