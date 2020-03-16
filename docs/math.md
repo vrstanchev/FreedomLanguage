@@ -16,7 +16,12 @@ do,while,bool,char,if,else,for,func, a-zA-Z}
 [L -> for K](#)<br/>
 [K -> func U](#)<br/>
 [U -> a-zA-Z](#)<br/>
-## Undetermined finite state machine
+## Determined finite state machine
 ![](_media/automata.png)<br/>
-
+## Context Free Grammar
+<indentificator>::=<'a'...'z'|'A'...'Z'><br/>
+<type>::=< int|bool|char|double|func ><br/>
+<variable>::=<type|identificator ><br/>
+<keywords>::=<cl.show|cl.wr|if|else|do|while><br/>
+<statement>::=<keywords|()><br/>
 Go back to [Home page](README.md) 
