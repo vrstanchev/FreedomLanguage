@@ -19,9 +19,14 @@ do,while,bool,char,if,else,for,func, a-zA-Z}
 ## Determined finite state machine
 ![](_media/automata.png)<br/>
 ## Context Free Grammar
+[<FLang>::=<identificator|type|variable|keywords|statements](#)<br/>
 [<indentificator>::=<'a'...'z'|'A'...'Z'>](#)<br/>
 [<type>::=< int|bool|char|double|func >](#)<br/>
+[<bool>::=<true|false>](#)<br/>
 [<variable>::=<type|identificator >](#)<br/>
 [<keywords>::=<show|wr|if|else|do|while>](#)<br/>
 [<statement>::=<keywords|()>](#)<br/>
+## Syntax three for:<br/>
+[do { cl.show("Hello There") } while( true );](#)<br/>
+![](_media/synttree.png)<br/>
 Go back to [Home page](README.md) 
