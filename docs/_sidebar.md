@@ -3,6 +3,7 @@
 * [](About.md "About Project")
 * [](Overview.md "Freedom Overview")
 * [](math.md "Mathematical Basis")
+* [](Plugins.md "Plugins")
 * [](IDE.md "IDE Features")
 * [](Contact.md "Contact")
 * [](Privacy.md "Privacy")

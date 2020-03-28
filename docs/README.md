@@ -17,6 +17,10 @@ the language, go to [Mathematical Basis](math.md)
 ## Web IDE
 If you want to learn more about the Web Development environment and how to use 
 it, go to [Web IDE](IDE.md)
+## Plugins
+If you want to use Freedom language plugins for your text editor, go
+to
+[Plugins](Plugins.md)
 ## Useful Links
 We use this page to give some example Free and Open-Source Software for 
 Students, go to
